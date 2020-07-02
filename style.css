@@ -1,0 +1,66 @@
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+img {
+    height: 22rem;
+    margin: auto;
+}
+
+#img-dead {
+
+    opacity: 30%;
+    filter: grayscale(50%);
+}
+
+.card img {
+
+    height: 18rem;
+}
+
+.horizontalrule {
+
+    margin-top: 6rem;    
+    border: 1px solid grey;
+    width: 96%;
+}
+
+.ovl {
+
+    opacity: 0;
+    color: white;
+    font-weight: 900;
+
+}
+
+.ovl:hover {
+    opacity: 1;
+}
+
+
+ul, .footer-top a {
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    #navbarSm ul li a {
+        margin-left: 5px;
+    }
+
+    .navbar-brand {
+        margin-left: 5px;
+    }
+
+   
+}
